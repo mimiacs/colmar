@@ -27,8 +27,21 @@ html{
 }
 
 .container {
-  /*display: flex;*/
-  /*align-items: center;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+
+
+}
+
+#start-button {
+  background-color: #262626;
+  color: white;
+  text-align: center;
+}
+
+#start {
 
 }
 
@@ -42,22 +55,26 @@ html{
   width: 65%;
 }
 
-h4 {
-  padding-bottom: 8px;
-}
+/*h4 {*/
+  /*padding-bottom: 8px;*/
+/*}*/
 
 .content {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  /*margin-top: 4px;*/
+  /*margin-bottom: 4px;*/
 }
 
-#link {
-  padding-top: 8px;
-  color: deepskyblue;
+#read-more {
+  /*padding-top: 4px;*/
+  color: #0086b3;
 }
 
 .courses {
   background-color: gainsboro;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .course-block {
