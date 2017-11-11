@@ -1,14 +1,71 @@
 html{
   font-size: 16px;
-  font-family: verdana;
+  font-family: sans-serif;
+  color: #262626;
 }
 
+.logo-black {
+  font-weight: bold;
+}
+
+.logo-gray{
+  font-weight: normal;
+  color: grey;
+}
 .gray {
   background-color: lightgrey;
 }
 
+.big-pic {
+  width: 60%;
+}
+
+.info-pic, .course-pic {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.container {
+  /*display: flex;*/
+  /*align-items: center;*/
+
+}
+
+.info-block{
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+#info {
+  width: 65%;
+}
+
+h4 {
+  padding-bottom: 8px;
+}
+
+.content {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#link {
+  padding-top: 8px;
+  color: deepskyblue;
+}
+
 .courses {
   background-color: gainsboro;
+}
+
+.course-block {
+  background-color: white;
+}
+
+video {
+  width: 60%;
 }
 
 .mobile {
